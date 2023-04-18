@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-family: Roboto;
+  padding: 2%;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.options {
+  padding: 3%;
+  border-width: 1px;
+  border-radius: 5px;
+  outline: thin;
+  font-weight: bold;
+}
+
+.label {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.option {
+  font-weight: bold;
+}
